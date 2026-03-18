@@ -1,5 +1,5 @@
-const display = document.querySelector('#display');
 const numbers = document.querySelectorAll('.number');
+const display = document.getElementById('display');
 const equal = document.getElementById('equal');
 const comma = document.getElementById('float');
 const simbols = ['+', '-', '*', '/'];
